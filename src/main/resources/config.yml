@@ -20,6 +20,10 @@ HikariCP:
   #池允许达到的最大大小，包括空闲和正在使用的连接
   #The maximum allowed size of the pool, including idle and in use connections
 settings:
+  # 是否在插件启动时检查更新
+  check_update: true
+  # 是否启用插件匿名使用数据收集（该选项重启生效）
+  bstats: true
   #该子服是否进行日期数据检测 （针对多子服，防止重复刷新）
   #进行日期检测以完成数据刷新，如果是多个子服建议只开启一个子服的该选项
   DataCheck: true

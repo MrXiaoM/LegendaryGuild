@@ -43,6 +43,7 @@ public class LegendaryGuild extends JavaPlugin implements PluginMessageListener 
     private static LegendaryGuild legendaryGuild;
     public Lang.LangType lang = Lang.LangType.Chinese;
     public String SERVER = "Server";
+    private Metrics metrics;
 
     @Override
     public void onEnable() {
@@ -118,7 +119,9 @@ public class LegendaryGuild extends JavaPlugin implements PluginMessageListener 
 
         Bukkit.getConsoleSender().sendMessage(fileManager.getLang().plugin+msgUtils.msg("&a插件启动成功！ 耗时&e"+(System.currentTimeMillis()-time) +"ms"));
 
-        Metrics metrics = new Metrics(this, 19359);
+        if (getFileManager().getConfig().BSTATS) {
+            metrics = new Metrics(this, 19359);
+        }
 
         //注册变量
         if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) {
@@ -134,6 +137,9 @@ public class LegendaryGuild extends JavaPlugin implements PluginMessageListener 
         //断开数据库连接
         dataProvider.closeDataBase();
         netWork.disable();
+        if (metrics != null) {
+            metrics.shutdown();
+        }
         if (legendaryGuildPlaceholderAPI != null) {
             legendaryGuildPlaceholderAPI.unregister();
         }
@@ -186,6 +192,7 @@ public class LegendaryGuild extends JavaPlugin implements PluginMessageListener 
     }
 
     private void updateCheck(){
+        if (!getFileManager().getConfig().CHECK_UPDATE) return;
         Bukkit.getScheduler().runTaskLaterAsynchronously(this, new Runnable() {
             @Override
             public void run() {

@@ -11,6 +11,8 @@ import java.util.*;
 import java.util.logging.Level;
 
 public class Config extends FileProvider{
+    public boolean CHECK_UPDATE;
+    public boolean BSTATS;
     public String GUILD_CHAT;
 
     public Config(LegendaryGuild legendaryGuild) {
@@ -162,6 +164,9 @@ public class Config extends FileProvider{
         HOME_BLACK_SERVER = getValue("settings.guild.home.black_server",new ArrayList<>());
 
         GUILD_CHAT = getValue("settings.guild.chat.format","&f[&e公会聊天&f][%position%&f]&3%player%&f: %message%");
+
+        CHECK_UPDATE = getValue("settings.check_update", true);
+        BSTATS = getValue("settings.bstats", true);
 
         //公会团购
         bargainMode = GuildTeamShopData.BargainMode.valueOf(getValue("settings.guild.bargain.mode","BASE_ON_MAXMEMBER").toUpperCase());
