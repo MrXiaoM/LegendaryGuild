@@ -23,9 +23,9 @@ repositories {
 
 dependencies {
     compileOnly("mysql:mysql-connector-java:5.1.48")
-    compileOnly("org.spigotmc:spigot-api:1.14.1-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT")
     compileOnly("org.xerial:sqlite-jdbc:3.28.0")
-    compileOnly("me.clip:placeholderapi:2.11.3")
+    compileOnly("me.clip:placeholderapi:2.11.6")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7")
     compileOnly("org.black_ixx:playerpoints:3.2.5")
     compileOnly(files("src/depend/AttributePlus-3.3.2.0.jar"))
