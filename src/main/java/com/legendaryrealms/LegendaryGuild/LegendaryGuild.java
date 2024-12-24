@@ -22,6 +22,7 @@ import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWork;
 import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkHandle;
 import com.legendaryrealms.LegendaryGuild.Utils.MsgUtils;
 import com.legendaryrealms.LegendaryGuild.Utils.UpdateCheck;
+import de.tr7zw.changeme.nbtapi.utils.MinecraftVersion;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -44,6 +45,14 @@ public class LegendaryGuild extends JavaPlugin implements PluginMessageListener 
     public Lang.LangType lang = Lang.LangType.Chinese;
     public String SERVER = "Server";
     private Metrics metrics;
+
+    @Override
+    public void onLoad() {
+        MinecraftVersion.replaceLogger(getLogger());
+        MinecraftVersion.disableUpdateCheck();
+        MinecraftVersion.disableBStats();
+        MinecraftVersion.getVersion();
+    }
 
     @Override
     public void onEnable() {
