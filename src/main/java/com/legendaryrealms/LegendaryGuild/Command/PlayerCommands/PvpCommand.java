@@ -1,13 +1,11 @@
 package com.legendaryrealms.LegendaryGuild.Command.PlayerCommands;
 
 import com.legendaryrealms.LegendaryGuild.API.UserAPI;
-import com.legendaryrealms.LegendaryGuild.Command.CommandTabBuilder;
 import com.legendaryrealms.LegendaryGuild.Command.LegendaryCommand;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class PvpCommand extends LegendaryCommand {

@@ -7,11 +7,9 @@ import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Data.User.WaterDataStore;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Listener.Custom.NewCycleEvent;
-import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import java.util.List;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 

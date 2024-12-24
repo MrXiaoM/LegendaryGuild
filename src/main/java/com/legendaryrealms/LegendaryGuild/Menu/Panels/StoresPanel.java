@@ -1,15 +1,15 @@
 package com.legendaryrealms.LegendaryGuild.Menu.Panels;
 
 import com.legendaryrealms.LegendaryGuild.API.GuildAPI;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildStore;
+import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Loaders.StoresLoader;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuDraw;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuItem;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
+import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
+import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
 import com.legendaryrealms.LegendaryGuild.Utils.serializeUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -21,7 +21,9 @@ import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class StoresPanel extends MenuDraw {
     private final LegendaryGuild legendaryGuild = LegendaryGuild.getInstance();

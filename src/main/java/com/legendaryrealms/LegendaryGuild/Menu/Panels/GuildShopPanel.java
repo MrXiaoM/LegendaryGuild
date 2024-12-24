@@ -8,7 +8,6 @@ import com.legendaryrealms.LegendaryGuild.Data.Guild.Shop.Item.ShopItem;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Shop.Item.ShopType;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Menu.Loaders.GuildShopLoader;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuDraw;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuItem;
 import com.legendaryrealms.LegendaryGuild.Utils.ReplaceHolderUtils;

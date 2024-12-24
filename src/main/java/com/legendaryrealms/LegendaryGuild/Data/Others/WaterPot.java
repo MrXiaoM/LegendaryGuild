@@ -1,12 +1,10 @@
 package com.legendaryrealms.LegendaryGuild.Data.Others;
 
 import com.legendaryrealms.LegendaryGuild.API.GuildAPI;
-import com.legendaryrealms.LegendaryGuild.API.UserAPI;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Utils.RunUtils;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
 

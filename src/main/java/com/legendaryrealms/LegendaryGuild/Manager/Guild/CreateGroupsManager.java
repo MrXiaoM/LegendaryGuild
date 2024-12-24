@@ -1,12 +1,11 @@
 package com.legendaryrealms.LegendaryGuild.Manager.Guild;
 
-import com.legendaryrealms.LegendaryGuild.Files.Config;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.CreateGuildSection;
+import com.legendaryrealms.LegendaryGuild.Files.Config;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Requirement.Requirement;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
-
 
 import java.util.*;
 import java.util.logging.Level;

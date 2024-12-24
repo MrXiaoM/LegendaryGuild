@@ -1,7 +1,6 @@
 package com.legendaryrealms.LegendaryGuild.Files;
 
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Utils.MsgUtils;
 import org.bukkit.Material;
 
 import java.util.ArrayList;

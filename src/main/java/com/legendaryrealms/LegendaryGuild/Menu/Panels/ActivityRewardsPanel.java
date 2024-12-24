@@ -1,13 +1,11 @@
 package com.legendaryrealms.LegendaryGuild.Menu.Panels;
 
 import com.legendaryrealms.LegendaryGuild.API.Events.ActivityRewardClaimEvent;
-import com.legendaryrealms.LegendaryGuild.API.GuildAPI;
 import com.legendaryrealms.LegendaryGuild.API.UserAPI;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildActivityData;
 import com.legendaryrealms.LegendaryGuild.Data.Others.ActivityReward;
 import com.legendaryrealms.LegendaryGuild.Data.Others.StringStore;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Loaders.ActivityRewardsLoader;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuDraw;
@@ -19,7 +17,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryDragEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;

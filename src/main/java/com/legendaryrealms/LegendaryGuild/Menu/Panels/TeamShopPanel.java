@@ -1,6 +1,5 @@
 package com.legendaryrealms.LegendaryGuild.Menu.Panels;
 
-import com.legendaryrealms.LegendaryGuild.API.GuildAPI;
 import com.legendaryrealms.LegendaryGuild.API.UserAPI;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildTeamShopData;
@@ -10,9 +9,7 @@ import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Loaders.TeamShopLoader;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuDraw;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuItem;
-import com.legendaryrealms.LegendaryGuild.Utils.MsgUtils;
 import com.legendaryrealms.LegendaryGuild.Utils.ReplaceHolderUtils;
-import com.legendaryrealms.LegendaryGuild.Utils.RunUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -23,7 +20,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 public class TeamShopPanel extends MenuDraw {

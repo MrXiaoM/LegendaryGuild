@@ -2,8 +2,8 @@ package com.legendaryrealms.LegendaryGuild.Command.PlayerCommands;
 
 import com.legendaryrealms.LegendaryGuild.API.GuildAPI;
 import com.legendaryrealms.LegendaryGuild.Command.CommandTabBuilder;
-import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
+import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 

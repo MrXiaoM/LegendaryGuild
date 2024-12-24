@@ -1,6 +1,5 @@
 package com.legendaryrealms.LegendaryGuild.Data.Guild.Shop.Item;
 
-import com.legendaryrealms.LegendaryGuild.Data.Guild.Shop.Item.ShopType;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.List;

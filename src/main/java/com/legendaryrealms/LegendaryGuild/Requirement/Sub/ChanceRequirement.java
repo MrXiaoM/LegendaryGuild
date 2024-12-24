@@ -1,7 +1,5 @@
 package com.legendaryrealms.LegendaryGuild.Requirement.Sub;
 
-import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Requirement.Requirement;
 import org.bukkit.entity.Player;
 

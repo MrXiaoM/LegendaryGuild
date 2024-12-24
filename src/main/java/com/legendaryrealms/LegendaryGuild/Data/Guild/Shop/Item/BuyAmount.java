@@ -1,7 +1,6 @@
 package com.legendaryrealms.LegendaryGuild.Data.Guild.Shop.Item;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class BuyAmount {
     private String player;

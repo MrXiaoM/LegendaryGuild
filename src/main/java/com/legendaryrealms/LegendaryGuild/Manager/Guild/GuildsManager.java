@@ -1,14 +1,14 @@
 package com.legendaryrealms.LegendaryGuild.Manager.Guild;
 
+import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildActivityData;
 import com.legendaryrealms.LegendaryGuild.Data.Others.StringStore;
+import com.legendaryrealms.LegendaryGuild.Data.User.User;
+import com.legendaryrealms.LegendaryGuild.Files.Lang;
+import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Panels.GuildListPanel;
 import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
 import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
-import com.legendaryrealms.LegendaryGuild.Files.Lang;
-import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
-import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

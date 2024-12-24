@@ -1,6 +1,5 @@
 package com.legendaryrealms.LegendaryGuild.Hook.Attribute;
 
-import com.legendaryrealms.LegendaryGuild.Data.Others.Buff;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Manager.Others.BuffsManager;
 import org.bukkit.Bukkit;

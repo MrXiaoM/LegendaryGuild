@@ -4,12 +4,12 @@ import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildIcon;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Optional;
 import java.util.logging.Level;
-import java.util.stream.Collectors;
 
 public class GuildIconsManager {
     private LinkedHashMap<String, GuildIcon> cache;

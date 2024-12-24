@@ -2,19 +2,21 @@ package com.legendaryrealms.LegendaryGuild.API;
 
 import com.legendaryrealms.LegendaryGuild.API.Events.*;
 import com.legendaryrealms.LegendaryGuild.Command.AdminCommands.ActivityCommand;
+import com.legendaryrealms.LegendaryGuild.Data.Guild.*;
 import com.legendaryrealms.LegendaryGuild.Data.Others.Buff;
 import com.legendaryrealms.LegendaryGuild.Data.Others.StringStore;
+import com.legendaryrealms.LegendaryGuild.Data.User.Position;
+import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Files.Config;
 import com.legendaryrealms.LegendaryGuild.Files.Lang;
-import com.legendaryrealms.LegendaryGuild.Data.Guild.*;
-import com.legendaryrealms.LegendaryGuild.Data.User.Position;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import org.bukkit.Bukkit;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 

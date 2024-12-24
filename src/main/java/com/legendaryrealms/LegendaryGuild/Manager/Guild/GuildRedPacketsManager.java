@@ -1,12 +1,12 @@
 package com.legendaryrealms.LegendaryGuild.Manager.Guild;
 
 import com.google.common.collect.Iterables;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
-import com.legendaryrealms.LegendaryGuild.Files.Lang;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild_Redpacket;
+import com.legendaryrealms.LegendaryGuild.Files.Lang;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
+import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
+import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

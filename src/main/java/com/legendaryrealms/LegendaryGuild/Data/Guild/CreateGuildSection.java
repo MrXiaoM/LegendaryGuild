@@ -1,8 +1,6 @@
 package com.legendaryrealms.LegendaryGuild.Data.Guild;
 
 
-
-import java.util.Comparator;
 import java.util.List;
 
 public class CreateGuildSection  {

@@ -3,7 +3,6 @@ package com.legendaryrealms.LegendaryGuild.Manager.Others;
 import com.legendaryrealms.LegendaryGuild.Data.Others.Buff;
 import com.legendaryrealms.LegendaryGuild.Data.Others.IntStore;
 import com.legendaryrealms.LegendaryGuild.Hook.Attribute.AttributePluginProvider;
-import com.legendaryrealms.LegendaryGuild.Hook.Attribute.AttributePlus3;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Utils.ItemUtils;
 import org.bukkit.configuration.ConfigurationSection;

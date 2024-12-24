@@ -2,8 +2,6 @@ package com.legendaryrealms.LegendaryGuild.Manager.Guild;
 
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildTeamShopData;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
-import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
 
 import java.util.HashMap;
 

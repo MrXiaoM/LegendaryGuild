@@ -1,13 +1,9 @@
 package com.legendaryrealms.LegendaryGuild.Utils.BungeeCord;
 
-import com.legendaryrealms.LegendaryGuild.API.UserAPI;
-import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.Data.Guild.GuildStore;
-import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Listener.MoveEvent;
-import com.legendaryrealms.LegendaryGuild.Listener.PlayerJoin;
-import com.legendaryrealms.LegendaryGuild.Menu.Panels.StoresPanel;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
+import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
+import com.legendaryrealms.LegendaryGuild.Menu.Panels.StoresPanel;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

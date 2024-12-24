@@ -8,7 +8,6 @@ import com.legendaryrealms.LegendaryGuild.Data.Others.TeamShopItem;
 import com.legendaryrealms.LegendaryGuild.Data.User.Position;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Data.User.WaterDataStore;
-import com.legendaryrealms.LegendaryGuild.Files.Config;
 import com.legendaryrealms.LegendaryGuild.Files.Lang;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Panels.GuildListPanel;

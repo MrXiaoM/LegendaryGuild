@@ -2,7 +2,10 @@ package com.legendaryrealms.LegendaryGuild.Data.Others;
 
 import com.legendaryrealms.LegendaryGuild.Utils.serializeUtils;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class StringStore<T>{
     private HashMap<String,T> map;

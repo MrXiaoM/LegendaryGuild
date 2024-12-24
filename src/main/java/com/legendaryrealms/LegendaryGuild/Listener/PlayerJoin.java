@@ -1,22 +1,17 @@
 package com.legendaryrealms.LegendaryGuild.Listener;
 
 import com.legendaryrealms.LegendaryGuild.API.UserAPI;
+import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
+import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Files.Config;
 import com.legendaryrealms.LegendaryGuild.Files.Lang;
-import com.legendaryrealms.LegendaryGuild.Data.Guild.Guild;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.scheduler.BukkitRunnable;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 public class PlayerJoin implements Listener {
     private final LegendaryGuild legendaryGuild = LegendaryGuild.getInstance();

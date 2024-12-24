@@ -3,8 +3,6 @@ package com.legendaryrealms.LegendaryGuild.Manager.Others;
 import com.legendaryrealms.LegendaryGuild.Data.Others.TeamShopItem;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Utils.ItemUtils;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.HashMap;

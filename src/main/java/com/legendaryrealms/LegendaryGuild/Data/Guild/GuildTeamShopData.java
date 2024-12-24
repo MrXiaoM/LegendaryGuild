@@ -5,7 +5,6 @@ import com.legendaryrealms.LegendaryGuild.Data.Others.TeamShopItem;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessage;
 import com.legendaryrealms.LegendaryGuild.Utils.BungeeCord.NetWorkMessageBuilder;
-import com.sun.org.apache.xpath.internal.SourceTree;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

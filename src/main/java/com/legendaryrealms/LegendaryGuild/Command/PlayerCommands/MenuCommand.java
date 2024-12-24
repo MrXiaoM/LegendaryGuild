@@ -2,7 +2,6 @@ package com.legendaryrealms.LegendaryGuild.Command.PlayerCommands;
 
 import com.legendaryrealms.LegendaryGuild.Command.CommandTabBuilder;
 import com.legendaryrealms.LegendaryGuild.Command.LegendaryCommand;
-import com.legendaryrealms.LegendaryGuild.Data.Others.Buff;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Menu.Panels.*;
 import org.bukkit.command.CommandSender;

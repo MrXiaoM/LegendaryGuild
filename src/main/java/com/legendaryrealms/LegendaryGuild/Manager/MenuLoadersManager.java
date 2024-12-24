@@ -3,12 +3,10 @@ package com.legendaryrealms.LegendaryGuild.Manager;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Menu.Loaders.*;
 import com.legendaryrealms.LegendaryGuild.Menu.MenuLoader;
-import com.legendaryrealms.LegendaryGuild.Menu.Panels.GuildShopPanel;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MenuLoadersManager {
     private HashMap<String, MenuLoader> cache;

@@ -7,12 +7,10 @@ import com.legendaryrealms.LegendaryGuild.Utils.ItemUtils;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.stream.Collectors;
 
 public class GuildShopItemsManager {
 

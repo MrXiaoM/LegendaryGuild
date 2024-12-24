@@ -2,8 +2,6 @@ package com.legendaryrealms.LegendaryGuild.Requirement.Sub;
 
 import com.legendaryrealms.LegendaryGuild.Requirement.Requirement;
 import com.legendaryrealms.LegendaryGuild.Utils.ItemUtils;
-import com.legendaryrealms.LegendaryGuild.Utils.MsgUtils;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
 import java.util.logging.Level;

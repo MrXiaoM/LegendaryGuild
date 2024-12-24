@@ -2,7 +2,6 @@ package com.legendaryrealms.LegendaryGuild.Manager.Others;
 
 import com.legendaryrealms.LegendaryGuild.Data.Others.ActivityReward;
 import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
-import org.bukkit.configuration.ConfigurationSection;
 
 import java.util.HashMap;
 import java.util.List;

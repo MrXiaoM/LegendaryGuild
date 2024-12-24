@@ -1,11 +1,10 @@
 package com.legendaryrealms.LegendaryGuild.Manager.User;
 
-import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import com.legendaryrealms.LegendaryGuild.Data.User.WaterDataStore;
+import com.legendaryrealms.LegendaryGuild.LegendaryGuild;
 
 import java.util.HashMap;
-import java.util.Optional;
 
 public class UsersManager {
     private HashMap<String, User> cache;

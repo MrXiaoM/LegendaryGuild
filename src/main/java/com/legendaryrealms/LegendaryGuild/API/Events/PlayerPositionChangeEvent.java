@@ -1,6 +1,5 @@
 package com.legendaryrealms.LegendaryGuild.API.Events;
 
-import com.legendaryrealms.LegendaryGuild.Data.User.Position;
 import com.legendaryrealms.LegendaryGuild.Data.User.User;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
