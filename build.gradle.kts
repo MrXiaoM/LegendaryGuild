@@ -50,6 +50,7 @@ java {
 }
 tasks {
     shadowJar {
+        archiveClassifier.set("")
         mapOf(
             "org.intellij.lang.annotations" to "annotations.intellij",
             "org.jetbrains.annotations" to "annotations.jetbrains",
