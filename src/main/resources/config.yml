@@ -139,7 +139,6 @@ settings:
         0:
           # %player% 为玩家名称
           #[player]指令 以玩家执行
-          #[op]xx 以OP权限执行
           #[console]xx 从后台执行
           #[message]xx 向玩家发送消息
           #[title]xx;xx 向玩家发送标题
@@ -147,7 +146,6 @@ settings:
 
           # %player% For player name
           #[player]xxx Executed by player
-          #[op]xx Execute with OP permission
           #[console]xx Execute from the console
           #[message]xx Send messages to players
           #[title]xx;xx Send titles to players

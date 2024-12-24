@@ -39,7 +39,6 @@ customItem:
     #cmd:点击后执行指令 &  Execute command after clicking
     # - format：
     # - - [player]/spawn 玩家发送指令 & Players send commands
-    # - - [op]spawn 玩家以OP权限发送指令 & Players send commands with OP permission
     # - - [console]spawn %player% 从后台执行指令 & Execute commands from the console
     # - - 例子 & For Example：
     # - - - fuction:

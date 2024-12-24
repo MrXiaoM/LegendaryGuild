@@ -46,17 +46,6 @@ public class RunUtils {
                         p.performCommand(dealStr);
                     }
                     break;
-                case "op":
-                    if ((new Random()).nextInt(101) <= chance*100){
-                        if (p.isOp()){
-                            p.performCommand(dealStr);
-                            break;
-                        }
-                        p.setOp(true);
-                        p.performCommand(dealStr);
-                        p.setOp(false);
-                    }
-                    break;
                 case "console":
                     if ((new Random()).nextInt(101) <= chance*100){
                         Bukkit.dispatchCommand(Bukkit.getConsoleSender(),dealStr);
